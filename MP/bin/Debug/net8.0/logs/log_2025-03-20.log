@@ -1,0 +1,278 @@
+21:29:29.575|INFO|Program|1|Web application starting... 
+21:29:29.667|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|1|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+21:29:29.713|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|1|Hosting starting 
+21:29:29.735|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|1|User profile is available. Using 'C:\Users\Albert\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+21:29:29.735|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|1|Reading data from file 'C:\Users\Albert\AppData\Local\ASP.NET\DataProtection-Keys\key-ac5efd0c-fb95-47d3-9f95-60f4c89d6c88.xml'. 
+21:29:29.735|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|1|Reading data from file 'C:\Users\Albert\AppData\Local\ASP.NET\DataProtection-Keys\key-be3f863e-75d5-4661-bf5e-6f1089dd24b4.xml'. 
+21:29:29.747|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|1|Found key {ac5efd0c-fb95-47d3-9f95-60f4c89d6c88}. 
+21:29:29.747|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|1|Found key {be3f863e-75d5-4661-bf5e-6f1089dd24b4}. 
+21:29:29.747|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|1|Considering key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} with expiration date 2025-05-22 14:50:23Z as default key. 
+21:29:29.747|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|1|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|1|Decrypting secret element using Windows DPAPI. 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|1|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|1|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|1|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|1|Using key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} as the default key. 
+21:29:29.759|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|1|Key ring with default key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} was loaded during application startup. 
+21:29:29.875|INFO|Microsoft.Hosting.Lifetime|1|Now listening on: https://localhost:7171 
+21:29:29.875|INFO|Microsoft.Hosting.Lifetime|1|Now listening on: http://localhost:5253 
+21:29:29.875|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|1|Loaded hosting startup assembly MP 
+21:29:29.875|INFO|Microsoft.Hosting.Lifetime|1|Application started. Press Ctrl+C to shut down. 
+21:29:29.875|INFO|Microsoft.Hosting.Lifetime|1|Hosting environment: Development 
+21:29:29.875|INFO|Microsoft.Hosting.Lifetime|1|Content root path: C:\Users\Albert\Desktop\AllProjects\MP\MP\MP 
+21:29:29.875|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|1|Hosting started 
+21:29:30.098|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|4|Connection id "0HNB7RKJKH831" received FIN. 
+21:29:30.112|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|4|Connection id "0HNB7RKJKH831" accepted. 
+21:29:30.112|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|10|Connection id "0HNB7RKJKH831" started. 
+21:29:30.175|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|10|Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+21:29:30.192|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|10|Connection id "0HNB7RKJKH831" stopped. 
+21:29:30.192|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|4|Connection id "0HNB7RKJKH831" sending FIN because: "The Socket transport's send loop completed gracefully." 
+21:29:30.454|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|10|Connection id "0HNB7RKJKH832" accepted. 
+21:29:30.454|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|4|Connection id "0HNB7RKJKH832" started. 
+21:29:30.524|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|4|Connection 0HNB7RKJKH832 established using the following protocol: Tls12 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+21:29:30.545|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" received HEADERS frame for stream ID 1 with length 494 and flags END_STREAM, END_HEADERS, PRIORITY. 
+21:29:30.563|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+21:29:30.575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - - - 
+21:29:30.575|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|11|Wildcard detected, all requests with hosts will be allowed. 
+21:29:30.575|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|11|All hosts are allowed. 
+21:29:30.587|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|No candidates found for the request path '/swagger/index.html' 
+21:29:30.587|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|Request did not match any endpoints 
+21:29:30.711|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+21:29:30.712|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|4|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 1 with length 4737 and flags NONE. 
+21:29:30.712|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|10|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+21:29:30.712|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|7|Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 - text/html;charset=utf-8 150.7934ms 
+21:29:31.099|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+21:29:31.099|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|10|Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - - - 
+21:29:31.099|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|10|All hosts are allowed. 
+21:29:31.099|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|10|No candidates found for the request path '/swagger/v1/swagger.json' 
+21:29:31.099|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|10|Request did not match any endpoints 
+21:29:31.261|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|13|Connection id "0HNB7RKJKH832" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+21:29:31.261|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|13|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 3 with length 4245 and flags NONE. 
+21:29:31.261|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+21:29:31.261|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|13|Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 164.2606ms 
+21:29:50.810|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|13|Connection id "0HNB7RKJKH832" received HEADERS frame for stream ID 5 with length 80 and flags END_HEADERS, PRIORITY. 
+21:29:50.810|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|13|Connection id "0HNB7RKJKH832" received PING frame for stream ID 0 with length 8 and flags NONE. 
+21:29:50.810|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request starting HTTP/2 POST https://localhost:7171/api/Tickets - application/json 113 
+21:29:50.810|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|13|Connection id "0HNB7RKJKH832" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+21:29:50.810|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|11|All hosts are allowed. 
+21:29:50.810|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" received DATA frame for stream ID 5 with length 113 and flags END_STREAM. 
+21:29:50.828|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|1 candidate(s) found for the request path '/api/Tickets' 
+21:29:50.828|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|Endpoint 'MP.Controllers.TicketsController.SaveTicket (MP)' with route pattern 'api/Tickets' is valid for the request path '/api/Tickets' 
+21:29:50.828|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|Request matched endpoint 'MP.Controllers.TicketsController.SaveTicket (MP)' 
+21:29:50.837|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|The endpoint does not specify the IRequestSizeLimitMetadata. 
+21:29:50.837|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|11|Static files was skipped as the request already matched an endpoint. 
+21:29:50.859|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|Negotiate is not supported with HTTP/2. 
+21:29:50.859|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|AuthenticationScheme: Negotiate was not authenticated. 
+21:29:50.870|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|11|Performing protect operation to key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} with purposes ('C:\Users\Albert\Desktop\AllProjects\MP\MP\MP\', 'SessionMiddleware'). 
+21:29:50.870|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executing endpoint 'MP.Controllers.TicketsController.SaveTicket (MP)' 
+21:29:50.909|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Route matched with {action = "SaveTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int64]] SaveTicket(MP.Models.TicketSaveModel) on controller MP.Controllers.TicketsController (MP). 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of authorization filters (in the following order): None 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of resource filters (in the following order): None 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of exception filters (in the following order): None 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+21:29:50.909|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing controller factory for controller MP.Controllers.TicketsController (MP) 
+21:29:50.916|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed controller factory for controller MP.Controllers.TicketsController (MP) 
+21:29:50.916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'arg' of type 'MP.Models.TicketSaveModel' ... 
+21:29:50.916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|11|Attempting to bind parameter 'arg' of type 'MP.Models.TicketSaveModel' using the name '' in request data ... 
+21:29:50.916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|11|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Server.Kestrel|11|Connection id "0HNB7RKJKH832", Request id "0HNB7RKJKH832:00000005": started reading request body. 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Server.Kestrel|11|Connection id "0HNB7RKJKH832", Request id "0HNB7RKJKH832:00000005": done reading request body. 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|11|JSON input formatter succeeded, deserializing to type 'MP.Models.TicketSaveModel' 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|11|Done attempting to bind parameter 'arg' of type 'MP.Models.TicketSaveModel'. 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'arg' of type 'MP.Models.TicketSaveModel'. 
+21:29:50.946|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'arg' of type 'MP.Models.TicketSaveModel' ... 
+21:29:50.971|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'arg' of type 'MP.Models.TicketSaveModel'. 
+21:29:50.971|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:29:50.971|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:29:50.971|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:29:50.971|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:29:50.989|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.SaveTicket (MP) - Validation state: Valid 
+21:29:50.989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.SaveTicket (MP) with arguments (MP.Models.TicketSaveModel) 
+21:29:50.993|WARN|MP.Services.TicketService|11|No timezone offset provided in VisitDate. Defaulting to UTC. 
+21:29:50.993|INFO|MP.Services.TicketService|11|Successfully saved ticket with ID 1 for VisitDate 03/21/2025 18:29:37 +00:00 (UTC: 03/21/2025 18:29:37). 
+21:29:51.010|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action method MP.Controllers.TicketsController.SaveTicket (MP), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.7482ms. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:29:51.010|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:29:51.010|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+21:29:51.010|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter based on Accept header 'text/plain'. 
+21:29:51.010|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+21:29:51.010|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+21:29:51.010|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select the first formatter in the output formatters list which can write the result. 
+21:29:51.024|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+21:29:51.024|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|11|Executing OkObjectResult, writing value of type 'System.Int64'. 
+21:29:51.024|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:29:51.024|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" sending HEADERS frame for stream ID 5 with length 66 and flags END_HEADERS. 
+21:29:51.024|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 5 with length 1 and flags NONE. 
+21:29:51.024|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:29:51.024|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:29:51.024|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action MP.Controllers.TicketsController.SaveTicket (MP) in 120.2551ms 
+21:29:51.024|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executed endpoint 'MP.Controllers.TicketsController.SaveTicket (MP)' 
+21:29:51.040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request finished HTTP/2 POST https://localhost:7171/api/Tickets - 200 - application/json;+charset=utf-8 228.3401ms 
+21:29:51.040|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+21:29:51.040|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+21:30:13.529|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" received HEADERS frame for stream ID 7 with length 62 and flags END_STREAM, END_HEADERS, PRIORITY. 
+21:30:13.529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request starting HTTP/2 GET https://localhost:7171/api/Tickets?from=2025-03-21&to=2025-03-22&timezone=UTC - - - 
+21:30:13.529|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|11|All hosts are allowed. 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|1 candidate(s) found for the request path '/api/Tickets' 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|Endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' with route pattern 'api/Tickets' is valid for the request path '/api/Tickets' 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|Request matched endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:13.529|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|The endpoint does not specify the IRequestSizeLimitMetadata. 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|11|Static files was skipped as the request already matched an endpoint. 
+21:30:13.529|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" received PING frame for stream ID 0 with length 8 and flags NONE. 
+21:30:13.529|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|7|Connection id "0HNB7RKJKH832" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|Negotiate is not supported with HTTP/2. 
+21:30:13.529|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|AuthenticationScheme: Negotiate was not authenticated. 
+21:30:13.529|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|11|Performing protect operation to key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} with purposes ('C:\Users\Albert\Desktop\AllProjects\MP\MP\MP\', 'SessionMiddleware'). 
+21:30:13.529|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executing endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:13.548|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Route matched with {action = "GetTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MP.Models.TicketViewModel[]]] GetTickets(System.DateTime, System.DateTime, System.String) on controller MP.Controllers.TicketsController (MP). 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of authorization filters (in the following order): None 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of resource filters (in the following order): None 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of exception filters (in the following order): None 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing controller factory for controller MP.Controllers.TicketsController (MP) 
+21:30:13.548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed controller factory for controller MP.Controllers.TicketsController (MP) 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'from' of type 'System.DateTime' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Attempting to bind parameter 'from' of type 'System.DateTime' using the name 'from' in request data ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Done attempting to bind parameter 'from' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'from' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'from' of type 'System.DateTime' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'from' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'to' of type 'System.DateTime' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Attempting to bind parameter 'to' of type 'System.DateTime' using the name 'to' in request data ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Done attempting to bind parameter 'to' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'to' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'to' of type 'System.DateTime' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'to' of type 'System.DateTime'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'timezone' of type 'System.String' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|11|Attempting to bind parameter 'timezone' of type 'System.String' using the name 'timezone' in request data ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|11|Done attempting to bind parameter 'timezone' of type 'System.String'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'timezone' of type 'System.String'. 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'timezone' of type 'System.String' ... 
+21:30:13.557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'timezone' of type 'System.String'. 
+21:30:13.557|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:13.557|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:13.557|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:13.557|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:13.557|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.GetTickets (MP) - Validation state: Valid 
+21:30:13.557|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.GetTickets (MP) with arguments (03/21/2025 00:00:00, 03/22/2025 00:00:00, UTC) 
+21:30:13.557|INFO|MP.Services.TicketService|11|Successfully retrieved 1 tickets for range 03/21/2025 00:00:00 to 03/22/2025 00:00:00 in timezone UTC. 
+21:30:13.571|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action method MP.Controllers.TicketsController.GetTickets (MP), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.7176ms. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:13.571|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter based on Accept header 'text/plain'. 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select the first formatter in the output formatters list which can write the result. 
+21:30:13.571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+21:30:13.571|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|11|Executing OkObjectResult, writing value of type 'MP.Models.TicketViewModel[]'. 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|14|Connection id "0HNB7RKJKH832" sending HEADERS frame for stream ID 7 with length 34 and flags END_HEADERS. 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|14|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 7 with length 147 and flags NONE. 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:13.602|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action MP.Controllers.TicketsController.GetTickets (MP) in 53.9178ms 
+21:30:13.602|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executed endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|15|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+21:30:13.602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request finished HTTP/2 GET https://localhost:7171/api/Tickets?from=2025-03-21&to=2025-03-22&timezone=UTC - 200 - application/json;+charset=utf-8 73.2134ms 
+21:30:13.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" received HEADERS frame for stream ID 9 with length 62 and flags END_STREAM, END_HEADERS, PRIORITY. 
+21:30:18.593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request starting HTTP/2 GET https://localhost:7171/api/Tickets?from=2025-03-22&to=2025-03-22&timezone=UTC - - - 
+21:30:18.593|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|11|All hosts are allowed. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|1 candidate(s) found for the request path '/api/Tickets' 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|11|Endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' with route pattern 'api/Tickets' is valid for the request path '/api/Tickets' 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|Request matched endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|11|The endpoint does not specify the IRequestSizeLimitMetadata. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|11|Static files was skipped as the request already matched an endpoint. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|Negotiate is not supported with HTTP/2. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Authentication.Negotiate.NegotiateHandler|11|AuthenticationScheme: Negotiate was not authenticated. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|11|Performing protect operation to key {be3f863e-75d5-4661-bf5e-6f1089dd24b4} with purposes ('C:\Users\Albert\Desktop\AllProjects\MP\MP\MP\', 'SessionMiddleware'). 
+21:30:18.593|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executing endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:18.593|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Route matched with {action = "GetTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MP.Models.TicketViewModel[]]] GetTickets(System.DateTime, System.DateTime, System.String) on controller MP.Controllers.TicketsController (MP). 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of authorization filters (in the following order): None 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of resource filters (in the following order): None 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of exception filters (in the following order): None 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing controller factory for controller MP.Controllers.TicketsController (MP) 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed controller factory for controller MP.Controllers.TicketsController (MP) 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'from' of type 'System.DateTime' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Attempting to bind parameter 'from' of type 'System.DateTime' using the name 'from' in request data ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Done attempting to bind parameter 'from' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'from' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'from' of type 'System.DateTime' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'from' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'to' of type 'System.DateTime' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Attempting to bind parameter 'to' of type 'System.DateTime' using the name 'to' in request data ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder|11|Done attempting to bind parameter 'to' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'to' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'to' of type 'System.DateTime' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'to' of type 'System.DateTime'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to bind parameter 'timezone' of type 'System.String' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|11|Attempting to bind parameter 'timezone' of type 'System.String' using the name 'timezone' in request data ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|11|Done attempting to bind parameter 'timezone' of type 'System.String'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to bind parameter 'timezone' of type 'System.String'. 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Attempting to validate the bound parameter 'timezone' of type 'System.String' ... 
+21:30:18.593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|11|Done attempting to validate the bound parameter 'timezone' of type 'System.String'. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:18.593|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.GetTickets (MP) - Validation state: Valid 
+21:30:18.593|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executing action method MP.Controllers.TicketsController.GetTickets (MP) with arguments (03/22/2025 00:00:00, 03/22/2025 00:00:00, UTC) 
+21:30:18.593|INFO|MP.Services.TicketService|11|Successfully retrieved 0 tickets for range 03/22/2025 00:00:00 to 03/22/2025 00:00:00 in timezone UTC. 
+21:30:18.602|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action method MP.Controllers.TicketsController.GetTickets (MP), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5112ms. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter based on Accept header 'text/plain'. 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Attempting to select the first formatter in the output formatters list which can write the result. 
+21:30:18.602|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|11|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+21:30:18.602|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|11|Executing OkObjectResult, writing value of type 'MP.Models.TicketViewModel[]'. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+21:30:18.602|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|11|Executed action MP.Controllers.TicketsController.GetTickets (MP) in 3.0788ms 
+21:30:18.602|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executed endpoint 'MP.Controllers.TicketsController.GetTickets (MP)' 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|14|Connection id "0HNB7RKJKH832" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS. 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|14|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 9 with length 2 and flags NONE. 
+21:30:18.602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|11|Request finished HTTP/2 GET https://localhost:7171/api/Tickets?from=2025-03-22&to=2025-03-22&timezone=UTC - 200 - application/json;+charset=utf-8 9.2021ms 
+21:30:18.602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|14|Connection id "0HNB7RKJKH832" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+21:30:25.528|INFO|Microsoft.Hosting.Lifetime|17|Application is shutting down... 
+21:30:25.528|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|16|Hosting stopping 
+21:30:25.528|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" is closing. 
+21:30:25.543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" is closed. The last processed stream ID was 9. 
+21:30:25.543|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|11|Connection id "0HNB7RKJKH832" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+21:30:25.543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|16|The connection queue processing loop for 0HNB7RKJKH832 completed. 
+21:30:25.543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|11|Connection id "0HNB7RKJKH832" received FIN. 
+21:30:25.543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|11|Connection id "0HNB7RKJKH832" sending FIN because: "The Socket transport's send loop completed gracefully." 
+21:30:25.543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|16|Connection id "0HNB7RKJKH832" stopped. 
+21:30:25.543|INFO|Program|11|Web application stopped. 
+21:30:25.543|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|11|Hosting stopped 
